@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: Cornsilk;
+  font-family: "Courier New", sans-serif;
+  color: saddlebrown;
+font-size: 1.3rem;
+    text-align: justify
+}
+.section {
+  position: relative;
+  width: 100%;
+  height: 57vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.section h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family: 'Cookie', cursive; 
+  background-color: cornsilk;
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.6;
+    color: cadetblue;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+   text-align: justify; 
+    font-size: 18px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}    
+    
+}
+h2{
+  color: saddlebrown;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 1.7rem;
+  
+}
+
+h3{
+    color: cadetblue;
+         font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+h4{
+    color: saddlebrown;
+         font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+    
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: burlywood;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+video{
+    width:100%;
+}
+
+nav ul{
+  background-color:CadetBlue;
+  border-style: solid;
+  border-color: saddlebrown;
+  border-width: 2px;
+  padding: 10px;
+  border-radius:10px;
+}
+
+nav ul li {
+    list-style-type: none;
+ display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color:cornsilk;
+}
+nav ul li a {
+    text-decoration: none;
+    color:saddlebrown;
+}
+
+ul li{
+    list-style-type: circle
+    
+    
+    
+}
+.p100 {
+width:100%;
+height:400px;
+;
+}
+.p50 {
+width:50%;
+height:400px;
+float:left;
+}
+.p25 {
+width:25%;
+height:400px;
+float:left;
+}
+.p75 {
+width:75%;
+height:400px;
+float:left;
+}
